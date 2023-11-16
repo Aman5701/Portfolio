@@ -375,12 +375,12 @@ nav .fas{
     display: none;
 }
 
-@media only screen and (max-width:760px){
+@media screen and (max-width:760px){
     .header{
         background: url(phone-background.png);
     }    
     .header-text{
-        margin-top: 1000px;
+        margin-top: 60%;
         margin-left: 8%;
         font-size: 16px;
     }
