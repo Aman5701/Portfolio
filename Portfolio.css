@@ -384,15 +384,18 @@ nav .fas{
         background: url(phone-background.png);
     }    */
     .header-text{
-        margin-top: 60%;
+        margin-top: 40%;
         margin-left: 8%;
         font-size: 1rem;
     }
     .header-text h1{
-        font-size: 1.875rem;
+        font-size: 2.75rem;
+    }
+    .header-text h1 span{
+        font-size: 4rem;;
     }
     .aspiring{
-        font-size: 1.875rem;
+        font-size: 2rem;
     }
     nav .fas{
         display: block;
