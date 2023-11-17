@@ -377,7 +377,7 @@ nav .fas{
 
 @media (max-width:398px){
     .header{
-        background: url(phone-background.png);
+        background: url();
     }    
     .header-text{
         margin-top: 60%;
