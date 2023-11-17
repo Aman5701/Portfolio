@@ -419,6 +419,13 @@ nav .fas{
     .description{
         font-size: 40px;
     }
+
+		 .description p{
+        font-size: 12px;
+    }
+
+
+		
     .about-col1, .about-col2{
         flex-basis: 100%;
     }
