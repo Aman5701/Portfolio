@@ -1,3 +1,11 @@
+// for back to top button
+
+var scroll = document.getElementById("top");
+window.addEventListener("scroll", function(){
+    scroll.style.transform = "rotate("+window.pageYOffset+"deg)";
+})
+
+
 // for About Section
 
 var links = document.getElementsByClassName("title-links");
