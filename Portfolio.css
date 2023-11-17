@@ -15,7 +15,7 @@ html{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(background1.png);
+    background-image: url();
     background-size: cover;
     background-position: center;
 }
@@ -93,7 +93,7 @@ nav ul li a:hover::after{
 }
 
 .description{
-    font-family: aquire, consolas, times new roman;
+    font-family: aquire, consolas;
 }
 
 
@@ -380,9 +380,9 @@ nav .fas{
 
 
 @media  (max-width:600px){
-    .header{
+    /* .header{
         background: url(phone-background.png);
-    }   
+    }    */
     .header-text{
         margin-top: 60%;
         margin-left: 8%;
