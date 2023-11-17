@@ -257,7 +257,7 @@ nav ul li a:hover::after{
     transition: height 0.5s;
 }
 .layer h2{
-    font-family: agbalumo;
+    font-family: agbalumo, Times New Roman;
     font-size: 1.875rem;
 }
 .layer h3{
@@ -448,7 +448,6 @@ nav .fas{
     }
     .layer h2{
         font-size: 1.25rem;
-	font-family: agbalumo;
     }
     .layer a{
         margin-top: 1rem;
