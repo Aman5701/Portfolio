@@ -420,10 +420,6 @@ nav .fas{
         font-size: 40px;
     }
 
-		 .about-col2 p{
-        font-size: 12px;
-    }
-
 
 		
     .about-col1, .about-col2{
@@ -434,6 +430,7 @@ nav .fas{
     }
     .about-col2{
         font-size: 14px;
+		margin-right: 20px;
     }
     .title-links{
         font-size: 16px;
