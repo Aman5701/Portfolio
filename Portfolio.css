@@ -71,6 +71,8 @@ nav ul li a:hover::after{
 }
 
 
+
+
 /* Text Animation */
 .header-text span{
     color: transparent;
@@ -375,89 +377,10 @@ nav .fas{
     display: none;
 }
 
-@media (max-width:398px){
-    .header{
-        background: url(phone-background.png);
-    }    
-    .header-text{
-        margin-top: 60%;
-        margin-left: 8%;
-        font-size: 16px;
-    }
-    .header-text h1{
-        font-size: 30px;
-    }
-     .aspiring{
-        font-size: 30px;
-    }
-    nav .fas{
-        display: block;
-        font-size: 25px;
-        cursor: pointer;
-    }
-    nav ul{
-        background: #5f001e;
-        position: fixed;
-        top: 0;
-        right: -200px;
-        width: 200px;
-        height: 100vh;
-        padding-top: 50px;
-        z-index: 2;
-        transition: right 0.8s;
-    }
-    nav ul li{
-        display: block;
-        margin: 25px;
-    }
-    nav ul .fas{
-        position: absolute;
-        top: 25px;
-        left: 25px;
-        cursor: pointer;
-    }
-    .description{
-        font-size: 40px;
-    }
-
-.about-col2 p{
-	margin-right: 60px;
-}
-		
-    .about-col1, .about-col2{
-        flex-basis: 100%;
-    }
-    .about-col1{
-        margin-bottom: 30px;
-    }
-    .about-col2{
-        font-size: 14px;
-    }
-    .title-links{
-        font-size: 16px;
-        margin-right: 20px;
-    }
-    .contact-left, .contact-right{
-        flex-basis: 100%;
-    }
-    .copyright{
-        font-size: 14px;
-	    width: 100%;
-    }
-    .contents.cnt1{
-        display: block;
-        
-    }
-	.card{
-		margin-right: 50px;
-	}
-}
-
-
 @media (max-width:768px){
     .header{
         background: url(phone-background.png);
-    }    
+    }   
     .header-text{
         margin-top: 60%;
         margin-left: 8%;
@@ -466,7 +389,7 @@ nav .fas{
     .header-text h1{
         font-size: 30px;
     }
-     .aspiring{
+    .aspiring{
         font-size: 30px;
     }
     nav .fas{
@@ -499,8 +422,6 @@ nav .fas{
         font-size: 40px;
     }
 
-
-		
     .about-col1, .about-col2{
         flex-basis: 100%;
     }
@@ -509,7 +430,6 @@ nav .fas{
     }
     .about-col2{
         font-size: 14px;
-		margin-right: -50px;
     }
     .title-links{
         font-size: 16px;
@@ -530,6 +450,79 @@ nav .fas{
 
 
 
+@media  (max-width:398px){
+    .header{
+        background: url(phone-background.png);
+    }   
+    .header-text{
+        margin-top: 60%;
+        margin-left: 8%;
+        font-size: 16px;
+    }
+    .header-text h1{
+        font-size: 30px;
+    }
+    .aspiring{
+        font-size: 30px;
+    }
+    nav .fas{
+        display: block;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    nav ul{
+        background: #5f001e;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.8s;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+    nav ul .fas{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+    .description{
+        font-size: 40px;
+    }
+
+   
+
+
+
+    .about-col1, .about-col2{
+        flex-basis: 100%;
+    }
+    .about-col1{
+        margin-bottom: 30px;
+    }
+    .about-col2{
+        font-size: 14px;
+    }
+    .title-links{
+        font-size: 16px;
+        margin-right: 20px;
+    }
+    .contact-left, .contact-right{
+        flex-basis: 100%;
+    }
+    .copyright{
+        font-size: 14px;
+    }
+    .contents.cnt1{
+        display: block;
+        margin-left: 100px;
+    }
+}
 
 
 
