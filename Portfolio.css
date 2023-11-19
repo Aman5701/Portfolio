@@ -16,8 +16,9 @@ html{
     position: fixed;
     bottom: 30px;
     right: 40px;
-    width: 100px;
-    height: 100px;
+    width: 6.25rem;
+    height: 6.25rem;
+    z-index: 1500;
 }
 
 #header{
